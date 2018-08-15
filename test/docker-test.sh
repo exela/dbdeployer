@@ -67,7 +67,7 @@ if [ -n "$TRAVIS" ]
 then
     export RUN_CONCURRENTLY=1
     export EXIT_ON_FAILURE=1
-    export ONLY_MAIN=1
+    # export ONLY_MAIN=1
     TARGET_DIR=original_test
 fi
 
